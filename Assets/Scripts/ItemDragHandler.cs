@@ -1,0 +1,38 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
+{
+
+    public BaseInventoryObject Item { get; set; }
+    // Start is called before the first frame update
+
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        transform.position = Input.mousePosition;
+        
+        Item?.SetPlacesActive(true);
+
+
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        transform.localPosition = Vector3.zero;
+        
+        Item?.SetPlacesActive(false);
+
+    }
+}
