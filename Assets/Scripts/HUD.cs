@@ -52,7 +52,7 @@ public class HUD : MonoBehaviour
             {
                 image.enabled = (true);
                 image.sprite = e.Item.Image;
-
+                //image.GetComponent<SpriteRenderer>().size = new Vector2(64, 64);
                 itemDragHandler.Item = (BaseInventoryObject)e.Item;
                 break;
             }
