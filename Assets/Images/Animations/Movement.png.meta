@@ -1,46 +1,28 @@
 fileFormatVersion: 2
-guid: a15809028554dca44a164ce6bc818ba2
+guid: 813936d3435d9624fb1e026e5c445e30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4645942027674443952
-    second: Kitter_1_0
+      213: -3011494807137413604
+    second: Movement_0
   - first:
-      213: -2125537216103490252
-    second: Kitter_1_1
+      213: -3011895399059424396
+    second: Movement_1
   - first:
-      213: -3337822017177689961
-    second: Kitter_1_2
+      213: 8065461568050007341
+    second: Movement_2
   - first:
-      213: 1891933032094983809
-    second: Kitter_1_3
+      213: 489804515281931848
+    second: Movement_3
   - first:
-      213: 6315136422268500183
-    second: Kitter_1_4
+      213: -1769147326846735629
+    second: Movement_4
   - first:
-      213: -447366102942738832
-    second: Kitter_1_5
+      213: 7732202995327073791
+    second: Movement_5
   - first:
-      213: -6061117368157918175
-    second: Kitter_1_6
-  - first:
-      213: -18484870812038097
-    second: Kitter_1_7
-  - first:
-      213: 6994235120471042677
-    second: Kitter_1_8
-  - first:
-      213: 6255774589841240517
-    second: Kitter_1_9
-  - first:
-      213: 1751733341259120944
-    second: Kitter_1_10
-  - first:
-      213: -3997331947110886812
-    second: Kitter_1_11
-  - first:
-      213: -2430067126648918885
-    second: Kitter_1_12
+      213: -7946779441942993994
+    second: Movement_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -164,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kitter_1_0
+      name: Movement_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 702
-        width: 279
-        height: 378
+        x: 48
+        y: 165
+        width: 308
+        height: 795
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b0e79ea8a3b97040800000000000000
-      internalID: 4645942027674443952
+      spriteID: c1614a1bd650536d0800000000000000
+      internalID: -3011494807137413604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_1
+      name: Movement_1
       rect:
         serializedVersion: 2
-        x: 304
-        y: 702
-        width: 279
-        height: 378
+        x: 434
+        y: 152
+        width: 339
+        height: 796
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d574dd9239082e0800000000000000
-      internalID: -2125537216103490252
+      spriteID: 47bfd6e97199336d0800000000000000
+      internalID: -3011895399059424396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_2
+      name: Movement_2
       rect:
         serializedVersion: 2
-        x: 575
-        y: 702
-        width: 280
-        height: 378
+        x: 837
+        y: 129
+        width: 314
+        height: 797
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79065a65f8cada1d0800000000000000
-      internalID: -3337822017177689961
+      spriteID: d2d8f2140964eef60800000000000000
+      internalID: 8065461568050007341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_3
+      name: Movement_3
       rect:
         serializedVersion: 2
-        x: 847
-        y: 702
-        width: 272
-        height: 378
+        x: 1229
+        y: 129
+        width: 286
+        height: 796
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18669dc911f714a10800000000000000
-      internalID: 1891933032094983809
+      spriteID: 84e03ce8c922cc600800000000000000
+      internalID: 489804515281931848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_4
+      name: Movement_4
       rect:
         serializedVersion: 2
-        x: 1119
-        y: 702
-        width: 274
-        height: 378
+        x: 1590
+        y: 129
+        width: 236
+        height: 796
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8f175fd1fd3a750800000000000000
-      internalID: 6315136422268500183
+      spriteID: 3fae7fb21e9b277e0800000000000000
+      internalID: -1769147326846735629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_5
+      name: Movement_5
       rect:
         serializedVersion: 2
-        x: 1394
-        y: 702
-        width: 282
-        height: 378
+        x: 1887
+        y: 126
+        width: 232
+        height: 801
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0761c8d46e2aac9f0800000000000000
-      internalID: -447366102942738832
+      spriteID: ffd7ea348ad4e4b60800000000000000
+      internalID: 7732202995327073791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitter_1_7
+      name: Movement_6
       rect:
         serializedVersion: 2
-        x: 25
-        y: 258
-        width: 279
-        height: 378
+        x: 2160
+        y: 128
+        width: 315
+        height: 799
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,113 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c8781ab145ebff0800000000000000
-      internalID: -18484870812038097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitter_1_8
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 258
-        width: 323
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57aec37f8c3801160800000000000000
-      internalID: 6994235120471042677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitter_1_9
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 258
-        width: 320
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c1f66e48d9f0d650800000000000000
-      internalID: 6255774589841240517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitter_1_10
-      rect:
-        serializedVersion: 2
-        x: 976
-        y: 258
-        width: 303
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03145fa51386f4810800000000000000
-      internalID: 1751733341259120944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitter_1_11
-      rect:
-        serializedVersion: 2
-        x: 1300
-        y: 258
-        width: 281
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 462922bd5cf9688c0800000000000000
-      internalID: -3997331947110886812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitter_1_12
-      rect:
-        serializedVersion: 2
-        x: 1613
-        y: 241
-        width: 279
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9cacb7c2daa64ed0800000000000000
-      internalID: -2430067126648918885
+      spriteID: 6b36c9e833e57b190800000000000000
+      internalID: -7946779441942993994
       vertices: []
       indices: 
       edges: []

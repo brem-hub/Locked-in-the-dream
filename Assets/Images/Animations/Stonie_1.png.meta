@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: ee6b4e1285d38244ebc16b04f2630b8a
+guid: aeaa416e5694d284e97d635fed098cad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -298538584060224660
-    second: stonie_full_0
+      213: 5513701388643546920
+    second: Stonie_1_0
   - first:
-      213: -4283884178660155471
-    second: stonie_full_1
+      213: -7801145987084822696
+    second: Stonie_1_1
   - first:
-      213: -7656677267985761464
-    second: stonie_full_2
+      213: -3574909999055319920
+    second: Stonie_1_2
   - first:
-      213: 4780596527775647624
-    second: stonie_full_3
+      213: -7854941792840127920
+    second: Stonie_1_3
   - first:
-      213: 5503846718108770561
-    second: stonie_full_4
+      213: -8092027074425905065
+    second: Stonie_1_4
   - first:
-      213: 5873064939333956933
-    second: stonie_full_5
-  - first:
-      213: 8256872033189520937
-    second: stonie_full_6
-  - first:
-      213: 1691455132390761965
-    second: stonie_full_7
-  - first:
-      213: -7312711505036637213
-    second: stonie_full_8
+      213: 3351828305043562531
+    second: Stonie_1_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -152,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stonie_full_0
+      name: Stonie_1_0
       rect:
         serializedVersion: 2
-        x: 84
-        y: 778
-        width: 321
-        height: 219
+        x: 28
+        y: 687
+        width: 502
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b97515db06bdbf0800000000000000
-      internalID: -298538584060224660
+      spriteID: 8273dab333a948c40800000000000000
+      internalID: 5513701388643546920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stonie_full_1
+      name: Stonie_1_1
       rect:
         serializedVersion: 2
-        x: 513
-        y: 783
-        width: 321
-        height: 213
+        x: 558
+        y: 690
+        width: 500
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf9b0859069c84c0800000000000000
-      internalID: -4283884178660155471
+      spriteID: 85758d69e03ccb390800000000000000
+      internalID: -7801145987084822696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stonie_full_2
+      name: Stonie_1_2
       rect:
         serializedVersion: 2
-        x: 964
-        y: 783
-        width: 327
-        height: 210
+        x: 1087
+        y: 694
+        width: 502
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b76e177940eb590800000000000000
-      internalID: -7656677267985761464
+      spriteID: 09cc05aeb4e536ec0800000000000000
+      internalID: -3574909999055319920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stonie_full_3
+      name: Stonie_1_3
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 778
-        width: 327
-        height: 213
+        x: 14
+        y: 281
+        width: 500
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 887888c9637185240800000000000000
-      internalID: 4780596527775647624
+      spriteID: 05ae4628e04adf290800000000000000
+      internalID: -7854941792840127920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stonie_full_4
+      name: Stonie_1_4
       rect:
         serializedVersion: 2
-        x: 83
-        y: 429
-        width: 327
-        height: 205
+        x: 569
+        y: 292
+        width: 501
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101a213fd67916c40800000000000000
-      internalID: 5503846718108770561
+      spriteID: 750200ccf3853bf80800000000000000
+      internalID: -8092027074425905065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stonie_full_5
+      name: Stonie_1_5
       rect:
         serializedVersion: 2
-        x: 501
-        y: 448
-        width: 327
-        height: 208
+        x: 1109
+        y: 296
+        width: 501
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,71 +262,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5453dcb0271518150800000000000000
-      internalID: 5873064939333956933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stonie_full_6
-      rect:
-        serializedVersion: 2
-        x: 955
-        y: 434
-        width: 327
-        height: 209
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9266e1e0e5d469270800000000000000
-      internalID: 8256872033189520937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stonie_full_7
-      rect:
-        serializedVersion: 2
-        x: 1438
-        y: 448
-        width: 326
-        height: 213
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de5a9af2b71497710800000000000000
-      internalID: 1691455132390761965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stonie_full_8
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 128
-        width: 327
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eb016d61a7048a90800000000000000
-      internalID: -7312711505036637213
+      spriteID: 320a83ea516148e20800000000000000
+      internalID: 3351828305043562531
       vertices: []
       indices: 
       edges: []

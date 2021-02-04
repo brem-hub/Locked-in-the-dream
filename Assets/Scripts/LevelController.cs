@@ -22,8 +22,19 @@ public class ChildHoodLevel : BaseLevel
 
     [SerializeField] private string nextLevel;
 
+    [SerializeField] private GameObject[] dustClouds;
+
     public override void EnterLevel()
     {
+        foreach (var cloud in dustClouds)
+        {
+            cloud.SetActive(false);
+        }
+
+        foreach (var placeSpot in spotsToFill)
+        {
+            placeSpot.gameObject.SetActive(false);
+        }
         PlaceSpot.ItemPlaced += UpdateLevelStatus;
     }
 
@@ -50,6 +61,10 @@ public class ChildHoodLevel : BaseLevel
     {
         if (SpotsAreFilled())
         {
+            foreach (var cloud in dustClouds)
+            {
+                cloud.SetActive(true);
+            }
             Debug.Log("LEVEL IS FINISHED!!!!!");
             InvokeLevelFinished(this);
         }

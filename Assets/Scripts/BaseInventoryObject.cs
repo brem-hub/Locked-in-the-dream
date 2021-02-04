@@ -79,6 +79,7 @@ public class BaseInventoryObject : MonoBehaviour, IInventoryItem
     public void OnDrop()
     {
         transform.position = new Vector3(PlacePosition.x, PlacePosition.y, 0);
+        transform.rotation = _chosenSpot.transform.rotation;
         gameObject.SetActive(true);
         _chosenSpot.IsItemPlaced = true;
     }
