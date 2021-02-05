@@ -1,90 +1,36 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public abstract class BaseLevel
+namespace Assets.Scripts
 {
-    public static event Action<BaseLevel> eLevelFinished;
-
-    protected void InvokeLevelFinished(BaseLevel level)
+    [Serializable]
+    class LevelController: MonoBehaviour
     {
-        eLevelFinished?.Invoke(level);
-    }
-    public abstract void EnterLevel();
-    public abstract void ExitLevel();
-}
+        public ChildhoodLevel Childhood;
+        public YouthLevel Youth;
 
-[Serializable]
-public class ChildHoodLevel : BaseLevel
-{
-    
-    [SerializeField] private PlaceSpot[] spotsToFill;
+        [NonSerialized] public static BaseLevel _currentLevel;
 
-    [SerializeField] private string nextLevel;
-
-    [SerializeField] private GameObject[] dustClouds;
-
-    public override void EnterLevel()
-    {
-        foreach (var cloud in dustClouds)
+        public static BaseLevel CurrentLevel
         {
-            cloud.SetActive(false);
-        }
-
-        foreach (var placeSpot in spotsToFill)
-        {
-            placeSpot.gameObject.SetActive(false);
-        }
-        PlaceSpot.ItemPlaced += UpdateLevelStatus;
-    }
-
-    public override void ExitLevel()
-    {
-        PlaceSpot.ItemPlaced -= UpdateLevelStatus;
-        foreach (var placeSpot in spotsToFill)
-        {
-            placeSpot.Item.gameObject.SetActive(false);
-        }
-    }
-
-    public bool SpotsAreFilled()
-    {
-        foreach (var placeSpot in spotsToFill)
-        {
-            if (!placeSpot.IsItemPlaced || placeSpot.Item == null)
-                return false;
-        }
-        return true;
-    }
-
-    public void UpdateLevelStatus(PlaceSpot a)
-    {
-        if (SpotsAreFilled())
-        {
-            foreach (var cloud in dustClouds)
+            get => _currentLevel;
+            set
             {
-                cloud.SetActive(true);
+                _currentLevel = value;
+                _currentLevel.EnterLevel();
             }
-            Debug.Log("LEVEL IS FINISHED!!!!!");
-            InvokeLevelFinished(this);
         }
-    }
-}
+        void Start()
+        {
+            DontDestroyOnLoad(this);
+            CurrentLevel = Childhood;
+            CurrentLevel.EnterLevel();
+            BaseLevel.eLevelFinished += ChangeLevel;
+        }
 
-[Serializable]
-class LevelController
-{
-    public ChildHoodLevel _currentLevel;
-
-    public void Start()
-    {
-        _currentLevel.EnterLevel();
-        BaseLevel.eLevelFinished += ChangeLevel;
-    }
-
-    private void ChangeLevel(BaseLevel obj)
-    {
-        _currentLevel.ExitLevel();
-        //SceneManager.LoadScene(obj.nextLevel);
+        private void ChangeLevel(BaseLevel obj)
+        {
+            CurrentLevel.ExitLevel();
+        }
     }
 }

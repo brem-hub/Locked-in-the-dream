@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
+
 public class Menu : MonoBehaviour
 {
 
     public RectTransform MainPanel;
 
     public RectTransform SettingsPanel;
+    public RectTransform GifPlane;
+
+    public Animator Gif;
 
     void Start()
     {
@@ -18,7 +23,11 @@ public class Menu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("game");
+        MainPanel.gameObject.SetActive(false);
+        GifPlane.gameObject.SetActive(true);
+        
+        StartCoroutine(PlayGif());
+        
     }
 
     public void ExitGame()
@@ -37,9 +46,12 @@ public class Menu : MonoBehaviour
         current.gameObject.SetActive(false);
         MainPanel.gameObject.SetActive(true);
     }
-    // Update is called once per frame
-    void Update()
+
+    IEnumerator PlayGif()
     {
-        
+        Gif.Play("StartGif");
+        yield return new WaitForSeconds(1f);
+        Gif.enabled = false;
+        SceneManager.LoadScene("childhood");
     }
 }
